@@ -1,0 +1,50 @@
+.box{
+    width:800px;
+    margin:0 auto;
+}
+ 
+.form-control{
+    width: 300px;    
+}
+
+.first_part{
+    display: flex;
+}
+
+.gap{
+    margin-left: 50px;
+}
+
+.ugap{
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.dgap{
+    margin-bottom: 20px;
+}
+
+.required:after {
+    content: " *";
+    color: red;
+}
+
+.active_tab1{
+    background-color:#FF0000;
+    color:#fff;
+    font-weight: 600;
+}
+
+.inactive_tab1 {
+    background-color: "#";
+    color : #333;
+    cursor : not-allowed;
+}
+
+.has-error{
+    border-color:#cc0000;
+    background-color:#f1c8c8;
+}
